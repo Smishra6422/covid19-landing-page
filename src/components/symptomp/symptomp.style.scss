@@ -1,0 +1,52 @@
+.symptomp-container {
+  position: relative;
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .symptomp-detail-container {
+    position: relative;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    div {
+      margin-bottom: 0.7rem;
+    }
+
+    h4 {
+      color: #fa5652;
+      font-size: 2rem;
+      text-align: center;
+    }
+
+    h5 {
+      color: #035755;
+      font-size: 1.9rem;
+      text-transform: capitalize;
+      text-align: center;
+    }
+
+    p {
+      color: #4b4f51;
+      font-size: 1rem;
+      text-transform: capitalize;
+      text-align: center;
+    }
+  }
+
+  .symptomp-image-container {
+    position: relative;
+    width: 85%;
+    margin: auto;
+    height: 38rem;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

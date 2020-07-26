@@ -1,24 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Header from "./components/header/header.component";
+import About from "./components/about/about.component";
+import Contagion from "./components/contagion/contagion.component";
+import Symptomp from "./components/symptomp/symptomp.component";
+import Precaution from "./components/precaution/precaution.component";
+import Map from "./components/map/map.component";
+import Contact from "./components/contact/contact.component";
+import Footer from "./components/footer/footer.component";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <About />
+      <Contagion />
+      <Symptomp />
+      <Precaution />
+      <Map />
+      <Contact />
+      <Footer />
     </div>
   );
 }
