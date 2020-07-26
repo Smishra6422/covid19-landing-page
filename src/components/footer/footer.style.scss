@@ -37,6 +37,7 @@
         width: 100%;
         margin: 0;
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
 
@@ -94,6 +95,48 @@
       font-size: 1.05rem;
       font-weight: 400;
       color: #13615f;
+    }
+  }
+}
+
+@media (max-width: 55rem) {
+  .footer-container {
+    margin-top: 1rem;
+
+    .footer-data {
+      width: 100%;
+
+      .logo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 0.4rem;
+      }
+
+      .footer-links {
+        width: 100%;
+        margin-bottom: 1.2rem;
+
+        ul {
+          li {
+            a {
+              font-size: 0.9rem;
+            }
+          }
+        }
+      }
+
+      .social-icon {
+        width: 100%;
+      }
+    }
+
+    .footer-cpoyright {
+      width: 100%;
+
+      p {
+        text-align: center;
+      }
     }
   }
 }

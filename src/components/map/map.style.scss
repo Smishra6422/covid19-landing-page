@@ -5,6 +5,7 @@
   margin-top: 3rem;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 
   .map-image {
     position: relative;
@@ -114,6 +115,42 @@
           span:last-child {
             width: 25%;
             color: #f44a45;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 67rem) {
+  .map-container {
+    .map-image {
+      width: 50%;
+    }
+
+    .map-data {
+      width: 40%;
+    }
+  }
+}
+
+@media (max-width: 55rem) {
+  .map-container {
+    width: 90%;
+
+    .map-image {
+      width: 100%;
+      margin-bottom: 1.2rem;
+      height: 20.8rem;
+    }
+
+    .map-data {
+      width: 100%;
+
+      .heading {
+        div:first-child {
+          span {
+            font-size: 1.5rem;
           }
         }
       }

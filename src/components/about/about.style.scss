@@ -1,7 +1,7 @@
 .about-container {
   position: relative;
   display: flex;
-  height: 550px;
+  flex-wrap: wrap;
 
   .vacant-sapce {
     width: 10%;
@@ -69,6 +69,62 @@
       text-transform: capitalize;
       color: #fa5652;
       font-size: 1.01rem;
+    }
+  }
+}
+
+@media (max-width: 55rem) {
+  .about-container {
+    .vacant-sapce:first-child {
+      width: 0%;
+    }
+
+    .vacant-sapce:last-child {
+      position: relative;
+      width: 10%;
+
+      img {
+        width: 90%;
+        height: 15rem;
+        left: 10%;
+      }
+    }
+
+    .about-image-container {
+      width: 80%;
+      margin: auto;
+      transform: translateX(0);
+    }
+
+    .about-detail-container {
+      width: 80%;
+      margin: auto;
+      align-items: center;
+
+      div {
+        margin-bottom: 0.8rem;
+      }
+
+      h4 {
+        font-size: 1.6rem;
+        text-align: center;
+        transform: translateX(10%);
+      }
+
+      h5 {
+        font-size: 1.5rem;
+        text-align: center;
+        transform: translateX(6%);
+      }
+
+      p {
+        text-align: center;
+        transform: translateX(6%);
+      }
+
+      button {
+        transform: translateX(6%);
+      }
     }
   }
 }
