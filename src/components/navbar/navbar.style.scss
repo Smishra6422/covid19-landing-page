@@ -189,7 +189,7 @@
 
       a {
         position: relative;
-        left: 1rem;
+        margin-left: 0.9rem;
         width: 25%;
         height: 2.2rem;
       }
@@ -212,6 +212,10 @@
 
         .navbar-item-list {
           margin-top: 0.8rem;
+
+          a {
+            font-size: 1.15rem;
+          }
         }
 
         .navbar-item-list:last-child {

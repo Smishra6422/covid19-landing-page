@@ -27,7 +27,7 @@ const Navbar = () => {
             <Link>Overview</Link>
           </li>
           <li className="navbar-item-list">
-            <Link>Contogion</Link>
+            <Link>Contagion</Link>
           </li>
           <li className="navbar-item-list">
             <Link>Symptoms</Link>
